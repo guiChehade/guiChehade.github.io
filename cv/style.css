@@ -1,0 +1,83 @@
+/* tag */
+body {
+    background-color: #eeeeee;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(34,34,34);
+    margin: 0px;
+}
+
+.container{
+    margin: 0 auto;
+    width: 900px;
+}
+
+.profile{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.social-links{
+    text-decoration: none;
+}
+
+.social-icons{
+    width: 50px;
+    margin: 10px;
+}
+
+/* class */
+.foto-principal {
+    margin: 30px 30px 10px;
+    width: 200px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #959595;
+}
+
+h1{
+    margin: 0px;
+    letter-spacing: 0px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;
+}
+
+h2{
+    margin-top: 5px;
+    font-style: italic;
+    color: rgb(73,73,73);
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+
+h4{
+    margin-bottom: 5px;
+}
+
+h5{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-style: normal;
+    font-style: italic;
+}
+
+h6{
+    margin: 5px 0;
+}
+
+p{
+    line-height: 25px;
+    margin-top: 0px;
+}
+
+.jobs-list{
+    list-style: none;
+    padding-left: 20px;
+}
+
+.footer{
+    background: black;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
