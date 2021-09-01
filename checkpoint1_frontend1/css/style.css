@@ -12,7 +12,7 @@ body{
     width: 1280px;
 }
 
-header, p, div, footer{
+header, p, div{
     background-color: rgba(227, 227, 227, 0.8);
 }
 
