@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/osasco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px 50px;
+    width: 1280px;
+}
+
+header, p, div, footer{
+    background-color: rgba(227, 227, 227, 0.8);
+}
+
+p, div, header{
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+h1{
+    margin: 0px;
+    letter-spacing: 0px;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 72px;
+    letter-spacing: -2px;
+}
+
+iframe{
+    height: 720px;
+    width: 1280px;
+    margin-bottom: 10px;
+}
+
+footer{
+    text-align: center;
+}
+
+.links{
+    text-decoration: none;
+}
+
+.icones{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
