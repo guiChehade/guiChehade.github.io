@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(../img/osasco2.png);
+    background-image: url(../img/osasco3.png);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Raleway', sans-serif;
@@ -23,7 +23,7 @@ header, p, div{
 }
 
 p, div, header, section{
-    border: 1px solid black;
+    border: 1px solid rgb(54, 114, 63);
     padding: 20px;
     margin-bottom: 10px;
 }
