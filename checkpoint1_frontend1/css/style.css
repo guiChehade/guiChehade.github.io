@@ -9,17 +9,22 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Raleway', sans-serif;
-    margin: 10px 50px;
+    margin: 10px auto;
     width: 1280px;
 }
 
-header, p, div{
-    background-color: rgba(227, 227, 227, 0.8);
+.container{
+    padding: 20px;
+    width: fit-content;
 }
 
-p, div, header{
+header, p, div{
+    background-color: rgba(227, 227, 227, 0.4);
+}
+
+p, div, header, section{
     border: 1px solid black;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 10px;
 }
 
