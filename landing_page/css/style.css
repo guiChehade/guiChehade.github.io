@@ -36,14 +36,6 @@ h3{
     padding: 10px;
 }
 
-input, label, button {
-    margin: 5px;
-    width: 100%;
-    display: inline-block;
-    border-radius: 3px;
-    border-style: none;
-}
-
 inline{
     display: inline;
 }
@@ -62,30 +54,13 @@ button{
 }
 
 button:hover{
-    color: white;
     background-color: rgb(33, 112, 197);
 }
 
-/* input{
-    margin: 5px;
-    width: 100%;
-    display: block;
-    border-radius: 3px;
-    border-style: none;
-} */
-
-/* form:first-child{
+button, button:hover, input:first-child, input:nth-child(2){
     margin: 5px;
     width: 100%;
     display: block;
     border-radius: 3px;
     border-style: none;
 }
-
-form:nth-child(2){
-    margin: 5px;
-    width: 100%;
-    display: block;
-    border-radius: 3px;
-    border-style: none;
-} */
