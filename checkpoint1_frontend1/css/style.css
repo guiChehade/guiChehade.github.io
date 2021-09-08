@@ -6,6 +6,8 @@
 
 body{
     background-image: url(../img/osasco3.png);
+    background-position: top;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Raleway', sans-serif;
