@@ -19,7 +19,11 @@ body{
 }
 
 header, p, div{
-    background-color: rgba(227, 227, 227, 0.4);
+    background-color: rgba(227, 227, 227, 0.6);
+}
+
+div > div{
+
 }
 
 p, div, header, section{
