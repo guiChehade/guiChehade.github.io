@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+}
+
+.bola{
+    animation: ex1 5s;
+    width: 120px;
+}
+
+@keyframes ex1{
+    from{
+        transform: translateX(-150%) rotate(-1080deg);
+        opacity: 0;
+    }
+
+    to{
+        transform: translateX(900%) rotate(0deg);
+        opacity: 1;
+    }
+}
+
+.logo{
+    display: block;
+    width: 150px;
+    margin: 50px auto;
+    animation: ex2 3s;
+}
+
+@keyframes ex2{
+    from{
+        transform: rotate(-1080deg) translateX(-1000%);
+    }
+
+    to{
+        transform: rotate(0deg) translateX(0);
+    }    
+}
+
+button{
+    display: block;
+    margin: 200px auto;
+    padding: 10px;
+    animation: ex3 5s;
+    background-color: rgb(70, 118, 201);
+    color: white;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+@keyframes ex3{
+    from{
+        background-color: rgb(1, 39, 104);
+    }
+
+    to{
+        background-color: rgb(70, 118, 201);
+    }    
+}
