@@ -12,16 +12,19 @@ body{
     background-size: cover;
     font-family: 'Raleway', sans-serif;
     margin: 10px auto;
-    width: 1280px;
+    width: 80%;
 }
 
 .container{
+    display: flex;
+    flex-direction: column;
     padding: 20px;
     width: fit-content;
 }
 
 header, p, div{
     background-color: rgba(227, 227, 227, 0.6);
+    width: 1320px;
 }
 
 div > div{
