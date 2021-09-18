@@ -22,7 +22,6 @@ header{
 
 .container{
     background-color: rgba(227, 227, 227, 0.6);
-    padding: 20px;
 }
 
 h1{
@@ -38,7 +37,7 @@ div > div {
     padding: 5px;
 }
 
-p, header, section, fieldset, .container{
+p, header, fieldset, .container{
     gap: 10px;
     border: 1px solid rgb(36, 82, 43);
     padding: 20px;
@@ -51,14 +50,17 @@ fieldset{
     gap: 10px;
 }
 
+input, button{
+    padding: 10px 15px;
+    border-radius: 3px;
+    border-style: none;
+}
+
 button{
     margin: 15px 0 0;
-    padding: 10px 15px;
     color: white;
     background-color: rgba(36, 82, 43, 0.8);
     transition: all 250ms ease;
-    border-radius: 3px;
-    border-style: none;
 }
 
 button:hover{

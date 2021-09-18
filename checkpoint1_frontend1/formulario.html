@@ -7,6 +7,7 @@
     <title>Formulário</title>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Raleway:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style-form.css">
+    <link rel="shortcut icon" href="./img/Osasco_icon.png" type="image/x-icon">
 </head>
 <body>
     <div class = "container">
@@ -20,13 +21,17 @@
                 <fieldset class="dadospessoais">
                     <legend>Dados Pessoais</legend>
                     <label for="nome">Nome:</label>
-                    <input type="text" name="nome" id="nome">
+                    <input type="text" name="nome" id="nome" required placeholder="Zezito da Silva">
+
                     <label for="email">Email:</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" required placeholder="exemplo@mail.com">
+
                     <label for="telefone">Telefone:</label>
-                    <input type="text" name="telefone" id="telefone">
+                    <input type="text" name="telefone" id="telefone" required placeholder="11999999999">
+
                     <label for="datanascimento">Data de Nascimento:</label>
-                    <input type="date" name="datanascimento" id="datanascimemto">
+                    <input type="date" name="datanascimento" id="datanascimento">
+
                     <legend>Idade:</legend>
                         <select name="idade" id="idade">
                             <option value>Selecione uma opção</option>
@@ -34,6 +39,7 @@
                             <option value="Menor de Idade">Menor de Idade</option>
                         </select>
                 </fieldset>
+
                 <fieldset>
                     <legend>Pontos de interesse</legend>
                         <div>
@@ -49,6 +55,7 @@
                             <label for="ponto3">Estádio Municipal José Liberatti</label>
                         </div>
                 </fieldset>
+
                 <fieldset>
                     <legend>Interesses na Cidade</legend>
                         <div class = "interesses">
@@ -67,6 +74,7 @@
                                
                         </div>
                 </fieldset>
+
                 <footer>
                     <div>
                         <button class="resetbtn" type="reset">Cancelar</button>
