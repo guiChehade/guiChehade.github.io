@@ -27,14 +27,12 @@ header, p, div{
     width: 1320px;
 }
 
-div > div{
-
-}
 
 p, div, header, section{
     border: 1px solid rgb(36, 82, 43);
     padding: 20px;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 h1{

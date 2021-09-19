@@ -17,58 +17,64 @@
             <a href="formulario.html">Visite-nos</a>
         </header>
         <main>
-            <form action="/registro" method="GET">
+            <form action="./registro.html" method="GET">
                 <fieldset class="dadospessoais">
                     <legend>Dados Pessoais</legend>
                     <label for="nome">Nome:</label>
-                    <input type="text" name="nome" id="nome" required placeholder="Zezito da Silva">
+                    <input type="text" name="nome" id="nome" required placeholder="Zezito da Silva" maxlength="100">
 
                     <label for="email">Email:</label>
                     <input type="email" name="email" id="email" required placeholder="exemplo@mail.com">
 
                     <label for="telefone">Telefone:</label>
-                    <input type="text" name="telefone" id="telefone" required placeholder="11999999999">
+                    <input type="number" name="telefone" id="telefone" required placeholder="11999999999">
 
                     <label for="datanascimento">Data de Nascimento:</label>
-                    <input type="date" name="datanascimento" id="datanascimento">
+                    <input type="date" name="datanascimento" id="datanascimento" required>
 
-                    <legend>Idade:</legend>
-                        <select name="idade" id="idade">
-                            <option value>Selecione uma opção</option>
-                            <option value="Maior de Idade">Maior de Idade</option>
-                            <option value="Menor de Idade">Menor de Idade</option>
-                        </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Idade</legend>
+                        <div>
+                            <input type="radio" name="idade" value="maior" id="maior">
+                            <label for="maior">Tenho 18 anos ou mais</label>
+                        </div>
+                        <div>                   
+                            <input type="radio" name="idade"  value="menor" id="menor">
+                            <label for="menor">Tenho menos de 18 anos</label>
+                        </div>
                 </fieldset>
 
                 <fieldset>
                     <legend>Pontos de interesse</legend>
-                        <div>
-                            <input type="radio"name="pontointeresse" id="ponto1">
-                            <label for="ponto1">Borboletário de Osasco</label>
-                        </div>
-                        <div>                   
-                            <input type="radio"name="pontointeresse"  id="ponto2">
-                            <label for="ponto2">Super Shopping Osasco</label>
-                        </div>
-                        <div>
-                            <input type="radio" name="pontointeresse" id="ponto3">
-                            <label for="ponto3">Estádio Municipal José Liberatti</label>
-                        </div>
+                    <select name="idade" id="idade">
+                        <option value>-- Selecione --</option>
+                        <option value="borboletario">Borboletário de Osasco</option>
+                        <option value="supershopping">Super Shopping Osasco</option>
+                        <option value="estadio">Estádio Municipal José Liberatti</option>
+                        <option value="sesc">SESC Osasco</option>
+                        <option value="ponte">Ponte Metálica</option>
+                        <option value="shoppinguniao">Shopping União</option>
+                        <option value="petparque">Pet Parque</option>
+                        <option value="catedral">Catedral de Santo Antônio</option>
+                        <option value="museu">Museu Histórico Bradesco</option>
+                    </select>
                 </fieldset>
 
                 <fieldset>
                     <legend>Interesses na Cidade</legend>
                         <div class = "interesses">
                             <div>
-                                <input type="checkbox" id="turista">
+                                <input type="checkbox" value="turista" name="interesse" value="turista" id="turista">
                                 <label for="turista">Turistar</label>
                             </div>
                             <div>
-                                <input type="checkbox" id="residente">
+                                <input type="checkbox" value="residente" name="interesse" value="residente" id="residente">
                                 <label for="residente">Residir</label>
                             </div>
                             <div>
-                                <input type="checkbox" id="estudante">
+                                <input type="checkbox" value="estudante" name="interesse" value="estudante" id="estudante">
                                 <label for="estudante">Estudar</label>
                             </div>
                                
