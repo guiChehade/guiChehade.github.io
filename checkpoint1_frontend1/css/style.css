@@ -80,3 +80,9 @@ footer{
     height: 50px;
     margin: 10px;
 }
+
+@media (max-width: 1700px){
+    header, p, div, iframe, .container{
+        width: 100%;
+    }
+}
