@@ -24,6 +24,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    justify-content: center;
     align-items: center;
 }
 
@@ -80,14 +81,17 @@ a:hover{
 
 
 #section-two{
+    text-align: center;
     color: #005555;
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-    flex-direction: column;
     padding-top: 75px;
     background-color: white;
     height: calc(100vh - 30px);
+}
+
+.flex-two{
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
 
 #section-three{
@@ -96,7 +100,7 @@ a:hover{
     align-items: center;
     justify-content:space-around;
     flex-direction: column;
-    background-color: #7AFFC0;
+    background-color: white;
     height: calc(100vh - 30px);
 }
 
@@ -111,11 +115,15 @@ h1{
     font-weight: 900;
 }
 
+h2{
+    margin: 15px;
+}
+
 #entrevista{
     width: 500px;
 }
 
-.cenario1{
+.parceria{
     display: flex;
     flex-direction: column;
     align-items: center;
