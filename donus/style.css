@@ -20,7 +20,7 @@ body{
     width: 100%;
 }
 
-.flex-one{
+#flex-one{
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -56,6 +56,7 @@ img:hover{
     transform: scale(105%);
 }
 
+
 a{
     color: white;
     text-decoration: none;
@@ -70,12 +71,23 @@ a:hover{
     transform: scale(110%);
 }
 
+#entrevista{
+    width: 500px;
+}
+
 #section-one{
-    color: #005555;
     display: flex;
     align-items: center;
     justify-content:space-around;
     background-color: #7AFFC0;
+    height: calc(100vh - 30px);
+}
+
+#section-case{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: white;
     height: calc(100vh - 30px);
 }
 
@@ -88,16 +100,15 @@ a:hover{
     height: calc(100vh - 30px);
 }
 
-.flex-two{
+#flex-two{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80%;
+    height: 90%;
 }
 
 #section-three{
     color: #005555;
-    display: flex;
     align-items: center;
     justify-content:space-around;
     flex-direction: column;
@@ -105,6 +116,13 @@ a:hover{
     height: calc(100vh - 30px);
 }
 
+#flex-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+}
 
 .donus{
     width: 400px;
@@ -117,11 +135,9 @@ h1{
 }
 
 h2{
+    display: block;
+    text-align: center;
     margin: 15px;
-}
-
-#entrevista{
-    width: 500px;
 }
 
 .parceria{
