@@ -154,6 +154,10 @@ a:hover{
     height: calc(100vh - 30px);
 }
 
+#paragrafo{
+    margin-bottom: 3rem;
+}
+
 .donus{
     width: 400px;
 }
