@@ -27,6 +27,48 @@ body{
     justify-content: center;
     align-items: center;
 }
+#flex-case{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#flex-case2{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+p{
+    width: 50%;
+}
+
+.vermelho{
+    color: rgb(173, 7, 7);
+}
+
+#flex-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+}
+
+#flex-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+}
+
+#marina{
+    width: 100px;
+    margin: auto;
+}
 
 .ancora{
     padding-top: 75px;
@@ -84,7 +126,9 @@ a:hover{
 }
 
 #section-case{
+    color: #005555;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content:space-around;
     background-color: white;
@@ -100,13 +144,6 @@ a:hover{
     height: calc(100vh - 30px);
 }
 
-#flex-two{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90%;
-}
-
 #section-three{
     color: #005555;
     align-items: center;
@@ -114,14 +151,6 @@ a:hover{
     flex-direction: column;
     background-color: white;
     height: calc(100vh - 30px);
-}
-
-#flex-three{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 90%;
 }
 
 .donus{
@@ -138,6 +167,11 @@ h2{
     display: block;
     text-align: center;
     margin: 15px;
+}
+
+h3{
+    display: block;
+    text-align: center;
 }
 
 .parceria{
